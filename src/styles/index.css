@@ -10,3 +10,37 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+   margin-top: 200px;
+}
+div.container{
+    max-width: 640px;
+        margin: 80px;
+        padding: 50px;
+        margin-block-start: inherit;
+    }
+
+ul li{
+    border: 1px solid gray;
+    list-style: none;
+    padding: 5px;
+}
+ul{
+    padding:0;
+    margin-bottom: 0;
+}
+h1{ 
+    text-align: center;
+}
+input{border: none; width:100%;}
+
+.background { 
+    background-image: url('https://i.pinimg.com/1200x/0e/36/4c/0e364c6b0c1e01d2c5666ed61f936322.jpg');
+     background-size: cover; 
+     background-position: center;
+      height: 100vh; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      color: rgb(10, 4, 4); 
+      text-align: center; }
